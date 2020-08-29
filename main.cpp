@@ -9,20 +9,10 @@ void PrintMenuOnly(string title);
 
 int main() {
 
-	//Playlist list;
 	string song;
 	cout << "Enter playlist's title:" << endl;
 	getline(cin, song);
 	PrintMenu(song);
-	//list.AddSong("SD123", "Peg", "Steely Dan", 237);
-	//list.AddSong("JJ234", "All For You", "Janet Jackson", 391);
-	//list.AddSong("J345", "Canned Heat", "Jamiroquai Dan", 330);
-	//list.AddSong("JJ456", "Black Eagle", "Janet Jackson", 197);
-	//list.AddSong("SD567", "I Got The News", "Steely Dan", 306);
-	//list.PrintList(song);
-	//cout << "SONGS BY JANET JACKSON" << endl;
-	//list.SongsByArtist("Janet Jackson");
-
 	return 0;
 }
 
@@ -34,8 +24,6 @@ bool PrintMenu(string playlistTitle) {
 	cout << endl;
 
 	PrintMenuOnly(playlistTitle);
-	/*string title;
-	getline(cin, title);*/
 
 	char c;
 	cin >> c;
